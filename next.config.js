@@ -39,7 +39,7 @@ module.exports = {
     // 把原blog文章路径重定向
     return [
       {
-        source: '/2021/06/24/创建Vue-Google-Translate组件',
+        source: `/2021/06/24/${encodeURIComponent('创建Vue-Google-Translate组件')}`,
         destination: '/v-goole-translate',
         permanent: false
       }
