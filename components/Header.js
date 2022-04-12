@@ -68,7 +68,7 @@ const Header = ({ navBarTitle, fullWidth }) => {
       >
         <div className="flex items-center">
           <Link href="/">
-            <a style={{ width: '48px', height: '48px', background: 'url("favicon.svg")', backgroundSize: 'cover' }} aria-label={BLOG.title}>
+            <a style={{ width: '48px', height: '48px', background: 'url("https://i7eo-blog.vercel.app/favicon.svg")', backgroundSize: 'cover' }} aria-label={BLOG.title}>
               {/* <div className="h-6">
                 <svg
                   width="24"
