@@ -37,13 +37,13 @@ const BLOG = {
   },
   comment: {
     // support provider: gitalk, utterances, cusdis
-    provider: '', // leave it empty if you don't need any comment plugin
+    provider: 'gitalk', // leave it empty if you don't need any comment plugin
     gitalkConfig: {
-      repo: '', // The repository of store comments
-      owner: '',
-      admin: [],
-      clientID: '',
-      clientSecret: '',
+      repo: 'vercel-i7eo-blog-comment', // The repository of store comments
+      owner: 'i7eo',
+      admin: ['i7eo'],
+      clientID: 'f2698ae7136f0f71ac8b',
+      clientSecret: 'ccb2bd9a90c62a1b6d8cf7dfc6e6c9a4fa459268',
       distractionFreeMode: false
     },
     utterancesConfig: {
