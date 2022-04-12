@@ -2,8 +2,6 @@ import { useEffect, useRef } from 'react'
 import Link from 'next/link'
 import BLOG from '@/blog.config'
 import { useLocale } from '@/lib/locale'
-import Image from 'next/image'
-import Logo from '../public/apple-touch-icon.png'
 
 const NavBar = () => {
   const locale = useLocale()
@@ -70,14 +68,7 @@ const Header = ({ navBarTitle, fullWidth }) => {
       >
         <div className="flex items-center">
           <Link href="/">
-            <a className='flex-grow-0 flex-shrink-0 inline-block h-full' style={{ width: '48px' }} aria-label={BLOG.title}>
-              <Image
-                alt={`${BLOG.author}'s blog`}
-                width={24}
-                height={24}
-                src={Logo}
-                className="rounded-full"
-              />
+            <a style={{ width: '48px', height: '48px', background: 'url("favicon.svg")', backgroundSize: 'cover' }} aria-label={BLOG.title}>
               {/* <div className="h-6">
                 <svg
                   width="24"
