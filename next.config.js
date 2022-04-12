@@ -196,271 +196,320 @@ module.exports = {
     const tags = [
       // {
       //   source: '',
-      //   destination: '/tags/Nodejs',
+      //   destination: '/tag/Nodejs',
       //   permanent: true
       // },
       // {
       //   source: '',
-      //   destination: '/tags/Eggjs',
+      //   destination: '/tag/Eggjs',
       //   permanent: true
       // },
       // {
       //   source: '',
-      //   destination: `/tags/${encodeURIComponent('跨境电商')}`,
+      //   destination: `/tag/${encodeURIComponent('跨境电商')}`,
       //   permanent: true
       // },
       {
         source: '/tags/worldpay',
-        destination: `/tags/${encodeURIComponent('跨境电商')}`,
+        destination: `/tag/${encodeURIComponent('跨境电商')}`,
         permanent: true
       },
       {
         source: '/tags/paypal-smart-button',
-        destination: `/tags/${encodeURIComponent('跨境电商')}`,
+        destination: `/tag/${encodeURIComponent('跨境电商')}`,
         permanent: true
       },
       {
         source: '/tags/certona',
-        destination: `/tags/${encodeURIComponent('跨境电商')}`,
+        destination: `/tag/${encodeURIComponent('跨境电商')}`,
         permanent: true
       },
       {
         source: '/tags/pinterest',
-        destination: `/tags/${encodeURIComponent('跨境电商')}`,
+        destination: `/tag/${encodeURIComponent('跨境电商')}`,
         permanent: true
       },
       {
         source: '/tags/ga',
-        destination: `/tags/${encodeURIComponent('跨境电商')}`,
+        destination: `/tag/${encodeURIComponent('跨境电商')}`,
         permanent: true
       },
       {
         source: '/tags/pingpong',
-        destination: `/tags/${encodeURIComponent('跨境电商')}`,
+        destination: `/tag/${encodeURIComponent('跨境电商')}`,
         permanent: true
       },
       // {
       //   source: '/tags/React',
-      //   destination: '/tags/SSR',
+      //   destination: '/tag/SSR',
       //   permanent: true
       // },
       // {
       //   source: '',
-      //   destination: '/tags/Vue2.x',
+      //   destination: '/tag/Vue2.x',
       //   permanent: true
       // },
       {
         source: `/tags/${encodeURIComponent('模版解析')}`,
-        destination: '/tags/Vue2.x',
+        destination: '/tag/Vue2.x',
         permanent: true
       },
       {
         source: `/tags/${encodeURIComponent('render-函数')}`,
-        destination: '/tags/Vue2.x',
+        destination: '/tag/Vue2.x',
         permanent: true
       },
       // {
       //   source: '',
-      //   destination: '/tags/Vuejs',
+      //   destination: '/tag/Vuejs',
       //   permanent: true
       // },
       {
         source: '/tags/google-translate',
-        destination: `/tags/${encodeURIComponent('Google Translate')}`,
+        destination: `/tag/${encodeURIComponent('Google Translate')}`,
         permanent: true
       },
       {
         source: '/tags/webpack',
-        destination: '/tags/Webpack',
+        destination: '/tag/Webpack',
         permanent: true
       },
       {
         source: `/tags/${encodeURIComponent('webpack4-0')}`,
-        destination: '/tags/Webpack',
+        destination: '/tag/Webpack',
         permanent: true
       },
       {
         source: '/tags/React',
-        destination: '/tags/Reactjs',
+        destination: '/tag/Reactjs',
         permanent: true
       },
       {
         source: '/tags/Hooks',
-        destination: '/tags/Reactjs',
+        destination: '/tag/Reactjs',
         permanent: true
       },
       {
         source: '/tags/Redux',
-        destination: '/tags/Reactjs',
+        destination: '/tag/Reactjs',
         permanent: true
       },
       // {
       //   source: '',
-      //   destination: '/tags/Javascript',
+      //   destination: '/tag/Javascript',
       //   permanent: true
       // },
       {
         source: '/tags/EventLoop',
-        destination: '/tags/Javascript',
+        destination: '/tag/Javascript',
         permanent: true
       },
       {
         source: `/tags/${encodeURIComponent('组件')}`,
-        destination: '/tags/Javascript',
+        destination: '/tag/Javascript',
         permanent: true
       },
       {
         source: `/tags/${encodeURIComponent('虚拟Dom')}`,
-        destination: '/tags/Javascript',
+        destination: '/tag/Javascript',
         permanent: true
       },
       {
         source: `/tags/${encodeURIComponent('继承')}`,
-        destination: '/tags/Javascript',
+        destination: '/tag/Javascript',
         permanent: true
       },
       {
         source: `/tags/${encodeURIComponent('规范')}`,
-        destination: '/tags/Javascript',
+        destination: '/tag/Javascript',
         permanent: true
       },
       {
         source: `/tags/${encodeURIComponent('prototype-proto')}`,
-        destination: '/tags/Javascript',
+        destination: '/tag/Javascript',
         permanent: true
       },
       {
         source: `/tags/${encodeURIComponent('面向对象')}`,
-        destination: '/tags/Javascript',
+        destination: '/tag/Javascript',
         permanent: true
       },
       {
         source: `/tags/${encodeURIComponent('值传递')}`,
-        destination: '/tags/Javascript',
+        destination: '/tag/Javascript',
         permanent: true
       },
       {
         source: `/tags/${encodeURIComponent('深拷贝')}`,
-        destination: '/tags/Javascript',
+        destination: '/tag/Javascript',
         permanent: true
       },
       {
         source: `/tags/${encodeURIComponent('闭包')}`,
-        destination: '/tags/Javascript',
+        destination: '/tag/Javascript',
         permanent: true
       },
       {
         source: `/tags/${encodeURIComponent('作用域')}`,
-        destination: '/tags/Javascript',
+        destination: '/tag/Javascript',
         permanent: true
       },
       {
         source: `/tags/${encodeURIComponent('上下文')}`,
-        destination: '/tags/Javascript',
+        destination: '/tag/Javascript',
         permanent: true
       },
       {
         source: `/tags/${encodeURIComponent('执行环境')}`,
-        destination: '/tags/Javascript',
+        destination: '/tag/Javascript',
         permanent: true
       },
       // {
       //   source: '',
-      //   destination: '/tags/Shopify',
+      //   destination: '/tag/Shopify',
       //   permanent: true
       // },
       // {
       //   source: '',
-      //   destination: `/tags/${encodeURIComponent('HTML&CSS')}`,
+      //   destination: `/tag/${encodeURIComponent('HTML&CSS')}`,
       //   permanent: true
       // },
       {
         source: `/tags/${encodeURIComponent('层叠上下文')}`,
-        destination: `/tags/${encodeURIComponent('HTML&CSS')}`,
+        destination: `/tag/${encodeURIComponent('HTML&CSS')}`,
         permanent: true
       },
       {
         source: `/tags/${encodeURIComponent('水平垂直居中')}`,
-        destination: `/tags/${encodeURIComponent('HTML&CSS')}`,
+        destination: `/tag/${encodeURIComponent('HTML&CSS')}`,
         permanent: true
       },
       {
         source: '/tags/flex',
-        destination: `/tags/${encodeURIComponent('HTML&CSS')}`,
+        destination: `/tag/${encodeURIComponent('HTML&CSS')}`,
         permanent: true
       },
       {
         source: '/tags/rem',
-        destination: `/tags/${encodeURIComponent('HTML&CSS')}`,
+        destination: `/tag/${encodeURIComponent('HTML&CSS')}`,
         permanent: true
       },
       {
         source: `/tags/${encodeURIComponent('sticky-footer')}`,
-        destination: `/tags/${encodeURIComponent('HTML&CSS')}`,
+        destination: `/tag/${encodeURIComponent('HTML&CSS')}`,
         permanent: true
       },
       // {
       //   source: '',
-      //   destination: '/tags/HTTP',
+      //   destination: '/tag/HTTP',
       //   permanent: true
       // },
       {
         source: '/tags/CORS',
-        destination: '/tags/HTTP',
+        destination: '/tag/HTTP',
         permanent: true
       },
       {
         source: `/tags/${encodeURIComponent('缓存')}`,
-        destination: '/tags/HTTP',
+        destination: '/tag/HTTP',
         permanent: true
       },
       {
         source: '/tags/https',
-        destination: '/tags/HTTP',
+        destination: '/tag/HTTP',
         permanent: true
       },
       // {
       //   source: '',
-      //   destination: '/tags/Nuxtjs',
+      //   destination: '/tag/Nuxtjs',
       //   permanent: true
       // },
       {
         source: `/tags/${encodeURIComponent('Nuxt-js')}`,
-        destination: '/tags/Nuxtjs',
+        destination: '/tag/Nuxtjs',
         permanent: true
       },
       {
         source: '/tags/React',
-        destination: `/tags/${encodeURIComponent('自动化')}`,
+        destination: `/tag/${encodeURIComponent('自动化')}`,
         permanent: true
       },
       {
         source: `/tags/${encodeURIComponent('Alfred3-workflow')}`,
-        destination: `/tags/${encodeURIComponent('自动化')}`,
+        destination: `/tag/${encodeURIComponent('自动化')}`,
         permanent: true
       },
       {
         source: `/tags/${encodeURIComponent('图床')}`,
-        destination: `/tags/${encodeURIComponent('自动化')}`,
+        destination: `/tag/${encodeURIComponent('自动化')}`,
         permanent: true
       },
       {
         source: '/tags/qshell',
-        destination: `/tags/${encodeURIComponent('自动化')}`,
+        destination: `/tag/${encodeURIComponent('自动化')}`,
         permanent: true
       },
       // {
       //   source: '',
-      //   destination: `/tags/${encodeURIComponent('运维')}`,
+      //   destination: `/tag/${encodeURIComponent('运维')}`,
       //   permanent: true
       // },
       {
         source: '/tags/cloudflare',
-        destination: `/tags/${encodeURIComponent('运维')}`,
+        destination: `/tag/${encodeURIComponent('运维')}`,
         permanent: true
       }
     ]
 
-    return [...posts, ...tags]
+    // 把原blog的categories路径重定向
+    const categories = [
+      {
+        source: '/categories/Vuejs',
+        destination: '/tag/Vuejs',
+        permanent: true
+      },
+      {
+        source: `/categories/${encodeURIComponent('Vue3-0')}`,
+        destination: '/tag/Vue3.x',
+        permanent: true
+      },
+      {
+        source: '/categories/React',
+        destination: '/tag/Reactjs',
+        permanent: true
+      },
+      {
+        source: '/categories/Javascript',
+        destination: '/tag/Javascript',
+        permanent: true
+      },
+      {
+        source: `/categories/${encodeURIComponent('HTML-CSS')}`,
+        destination: '/tag/Vue3.x',
+        permanent: true
+      },
+      {
+        source: `/categories/${encodeURIComponent('三方')}`,
+        destination: `/tag/${encodeURIComponent('跨境电商')}`,
+        permanent: true
+      },
+      {
+        source: '/categories/HTTP',
+        destination: '/tag/HTTP',
+        permanent: true
+      },
+      {
+        source: `/categories/${encodeURIComponent('自动化')}`,
+        destination: `/tag/${encodeURIComponent('自动化')}`,
+        permanent: true
+      },
+      {
+        source: `/categories/${encodeURIComponent('运维')}`,
+        destination: `/tag/${encodeURIComponent('运维')}`,
+        permanent: true
+      }
+    ]
+
+    return [...posts, ...tags, ...categories]
   }
 }
