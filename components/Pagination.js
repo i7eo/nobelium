@@ -28,6 +28,7 @@ const Pagination = ({ page, showNext }) => {
         </a>
       </Link>
       )}
+      <span></span>
       {showNext && (
         <Link href={`/page/${currentPage + 1}`}>
           <a>

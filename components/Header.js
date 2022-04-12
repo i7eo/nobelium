@@ -70,7 +70,7 @@ const Header = ({ navBarTitle, fullWidth }) => {
       >
         <div className="flex items-center">
           <Link href="/">
-            <a aria-label={BLOG.title}>
+            <a className='flex-grow-0 flex-shrink-0 inline-block h-full' style={{ width: '48px' }} aria-label={BLOG.title}>
               <Image
                 alt={`${BLOG.author}'s blog`}
                 width={24}
@@ -117,8 +117,9 @@ const Header = ({ navBarTitle, fullWidth }) => {
               )
             : (
             <p className="ml-2 font-medium text-day dark:text-night header-name">
-              {BLOG.title},{' '}
-              <span className="font-normal">{BLOG.description}</span>
+              {BLOG.title}
+              {/* ,{' '}
+              <span className="font-normal">{BLOG.description}</span> */}
             </p>
               )}
         </div>
