@@ -43,6 +43,15 @@ module.exports = {
     return config
   },
   async redirects () {
+    // 把原blog的page路径重定向
+    const pages = [
+      {
+        source: '/archives',
+        destination: '/',
+        permanent: true
+      }
+    ]
+
     // 把原blog文章路径重定向
     const posts = [
       {
@@ -239,11 +248,11 @@ module.exports = {
         destination: `/tag/${encodeURIComponent('跨境电商')}`,
         permanent: true
       },
-      // {
-      //   source: '/tags/React',
-      //   destination: '/tag/SSR',
-      //   permanent: true
-      // },
+      {
+        source: '/tags/SSR',
+        destination: '/tag/SSR',
+        permanent: true
+      },
       // {
       //   source: '',
       //   destination: '/tag/Vue2.x',
@@ -510,6 +519,6 @@ module.exports = {
       }
     ]
 
-    return [...posts, ...tags, ...categories]
+    return [...pages, ...posts, ...tags, ...categories]
   }
 }
