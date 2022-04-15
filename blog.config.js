@@ -2,7 +2,8 @@ const BLOG = {
   title: 'Solitude is freedom',
   author: 'i7eo',
   email: 'george704t@gmail.com',
-  link: 'https://i7eo.notion.site/7cd40e02d4414718bc051f7c626544db?v=24028e3db8014da4b00339551c024264',
+  // link: 'https://i7eo.notion.site/7cd40e02d4414718bc051f7c626544db?v=24028e3db8014da4b00339551c024264',
+  link: 'https://i7eo.com',
   description: 'i7eo\'s blog, George Tan\'s blog, A man who dreams of being a full stack engineer.',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'auto', // ['light', 'dark', 'auto'],
