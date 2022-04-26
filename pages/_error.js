@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 function Error ({ statusCode }) {
   return (
-    <div className="error-wrapper">
+    <div className="error-wrapper" style={{ position: 'absolute', display: 'flex', alignItems: 'center', justifyContent: 'center', top: 0, left: 0, width: '100%', height: '100%' }}>
       <div
         className="error-image"
         style={{
@@ -14,10 +14,10 @@ function Error ({ statusCode }) {
       ></div>
       <div className="error-desc">
         <p>
-          <b style={{ color: '#d41717', fontSize: '24px', lineHeight: '30px' }}>
+          <b className='text-3xl font-bold text-black dark:text-white'>
             Oops ...
           </b>
-          <span>
+          <span className='font-bold text-black dark:text-white'>
             {"It's embarrassing, but I'm sorry for"}
             {
                 statusCode ? `${statusCode} error` : 'client error'
@@ -25,8 +25,8 @@ function Error ({ statusCode }) {
           </span>
         </p>
         <p>
-          <span>{"There's nothing to see here"}</span>
-          <Link href={'/'}>GO BACK</Link>
+          <span className='font-bold text-black dark:text-white'>{"There's nothing to see here"}</span>
+          <Link href={'/'} className='text-2xl font-bold text-black dark:text-white'>GO BACK</Link>
         </p>
       </div>
     </div>
