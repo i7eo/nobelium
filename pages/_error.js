@@ -14,11 +14,11 @@ function Error ({ statusCode }) {
       ></div>
       <div className="error-desc">
         <p>
-          <b className='text-3xl font-bold text-black dark:text-white'>
+          <b className='text-3xl font-bold text-black dark:text-white' style={{ marginRight: '10px' }}>
             Oops ...
           </b>
           <span className='font-bold text-black dark:text-white'>
-            {"It's embarrassing, but I'm sorry for"}
+            {"It's embarrassing, but I'm sorry for "}
             {
                 statusCode ? `${statusCode} error` : 'client error'
             }
@@ -26,7 +26,7 @@ function Error ({ statusCode }) {
         </p>
         <p>
           <span className='font-bold text-black dark:text-white'>{"There's nothing to see here"}</span>
-          <Link href={'/'} className='text-2xl font-bold text-black dark:text-white'>GO BACK</Link>
+          <Link href={'/'} style={{margin: '0 10px', color: '#2d4374', fontSize: '18px', fontWeight: 800}}>GO BACK</Link>
         </p>
       </div>
     </div>
