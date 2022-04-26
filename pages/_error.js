@@ -26,7 +26,9 @@ function Error ({ statusCode }) {
         </p>
         <p>
           <span className='font-bold text-black dark:text-white'>{"There's nothing to see here"}</span>
-          <Link href={'/'} style={{margin: '0 10px', color: '#2d4374', fontSize: '18px', fontWeight: 800}}>GO BACK</Link>
+          <Link href={'/'} passHref>
+            <span className='text-3xl font-bold' style={{ color: '#2d4374' }}>GO BACK</span>
+          </Link>
         </p>
       </div>
     </div>
