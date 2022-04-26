@@ -519,6 +519,60 @@ module.exports = {
       }
     ]
 
-    return [...pages, ...posts, ...tags, ...categories]
+    // others
+    const others = [
+      {
+        source: '/templates',
+        destination: '/',
+        permanent: true
+      },
+      {
+        source: '/null',
+        destination: '/',
+        permanent: true
+      },
+      {
+        source: '/node_modules',
+        destination: '/',
+        permanent: true
+      },
+      {
+        source: '/api',
+        destination: '/',
+        permanent: true
+      },
+      {
+        source: '/login',
+        destination: '/',
+        permanent: true
+      },
+      {
+        source: '/dist',
+        destination: '/',
+        permanent: true
+      },
+      {
+        source: '/[slug]',
+        destination: '/',
+        permanent: true
+      },
+      {
+        source: '/src',
+        destination: '/',
+        permanent: true
+      },
+      {
+        source: '/decorator',
+        destination: '/',
+        permanent: true
+      },
+      {
+        source: '/useTodo',
+        destination: '/',
+        permanent: true
+      }
+    ]
+
+    return [...pages, ...posts, ...tags, ...categories, ...others]
   }
 }
